@@ -1,4 +1,6 @@
 
+time_pal = 0
+
 #le pedimos al usuario que nos diga una frase (o varias)
 frase = input("Decime una frase y te calculo cuanto tardarìas si tuvieras que decirla: ")
 
@@ -14,5 +16,5 @@ if cantidad_de_palabras > 120:
     
 #Calculamos cuanto tardaría en decir las palabras y se lo decimos    
 print(f'Dijiste {cantidad_de_palabras} palabras, y tardarìas {cantidad_de_palabras/2} segundos en decirlo')
-print(f'Dalto lo dirìa en {cantidad_de_palabras * 100 // 2 *1.3 / 100} segundos')
+print(f'Dalto lo dirìa en {cantidad_de_palabras * 100 // 2 * 0.7 / 100} segundos')
 
