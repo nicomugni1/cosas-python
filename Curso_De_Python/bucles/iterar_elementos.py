@@ -28,6 +28,10 @@ for num in enumerate(numeros):
     valor = num[1]
     print(f'el ìndice es: {indice} y el valor es: {valor}')
     
+
+#otra forma para almacenar indice y valor
+for num,i in enumerate(numeros):
+    print(f"el indice es {num} y el valor {i}")
     
 
 #usando el for/else
