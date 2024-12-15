@@ -5,7 +5,7 @@ diccionario = {
 }
 
 #recorriendo diccionario para obtener las claves
-for key in diccionario:
+for key in diccionario.items():
     key
     print(f"la clave es: {key}")
     
