@@ -40,6 +40,7 @@ password,primer_numero = crear_contraseña_random(981)
 print(f"Tu contraseña nueva es: {password}")
 print(f"El nùmero utilizado para crearla fue: {primer_numero}")
 
+#nash
 
 
 
